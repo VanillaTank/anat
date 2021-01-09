@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <title>Студия танца "Анат"</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/fonts.css">
@@ -11,30 +11,30 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="major">
         <div class="header-top">
             <div class="header-top__inner">
-                <a href="#" class="header__logo-link">
+                <a href="#major" class="header__logo-link">
                     <img class="header__logo-img" src="images/logo.png" alt="Анат">
                 </a>
                 <ul class="header__menu">
-                    <li class="header__menu-item header__menu-item--active"><a href="#"
+                    <li class="header__menu-item header__menu-item--active"><a href="#major"
                             class="header__menu-link header__menu-link--active">
                             Главная
                         </a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">
+                    <li class="header__menu-item"><a href="#about" class="header__menu-link">
                             О нас
                         </a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">
+                    <li class="header__menu-item"><a href="#streams" class="header__menu-link">
                             Направления
                         </a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">
+                    <li class="header__menu-item"><a href="#teachers" class="header__menu-link">
                             Преподаватели
                         </a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">
+                    <li class="header__menu-item"><a href="#events" class="header__menu-link">
                             События
                         </a></li>
-                    <li class="header__menu-item"><a href="#" class="header__menu-link">
+                    <li class="header__menu-item"><a href="#contacts" class="header__menu-link">
                             Контакты
                         </a></li>
                 </ul>
@@ -44,12 +44,15 @@
         <div class="header-bottom">
             <div class="container">
                 <h1 class="header-bottom__title title">Студия современного танца</h1>
-                <button class="btnOnLight header-bottom__btn">Записаться на тренировку</button>
+                <a href="#contacts">
+                    <button class="btnOnLight header-bottom__btn">Записаться на тренировку</button>
+                </a>
+                
             </div>
         </div>
     </header>
 
-    <section class="section about">
+    <section class="section about" id="about">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">О нашей студии</span></h2>
             <div class="sliderContainer">
@@ -121,7 +124,7 @@
         </div>
     </section>
 
-    <section class="section strems">
+    <section class="section strems" id="streams">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">Направления</span></h2>
             <article class="strems__item">
@@ -141,7 +144,9 @@
                         Крокодиловая ферма Самут Пракан - самая большая в мире, однако
                         королевство косвенно.
                     </p>
-                    <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    <a href="#contacts">
+                        <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    </a>
                 </div>
             </article>
 
@@ -157,7 +162,9 @@
                         Крокодиловая ферма Самут Пракан - самая большая в мире, однако
                         королевство косвенно.
                     </p>
-                    <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    <a href="#contacts">
+                        <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    </a>
                 </div>
 
                 <div class="srtems__item-video-Wrap">
@@ -184,7 +191,9 @@
                         Крокодиловая ферма Самут Пракан - самая большая в мире, однако
                         королевство косвенно.
                     </p>
-                    <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    <a href="#contacts">
+                        <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    </a>
                 </div>
             </article>
 
@@ -200,7 +209,9 @@
                         Крокодиловая ферма Самут Пракан - самая большая в мире, однако
                         королевство косвенно.
                     </p>
-                    <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    <a href="#contacts">
+                        <button class="btnOnDark strems__item-btn">Записаться на тренировку</button>
+                    </a>
                 </div>
 
                 <div class="srtems__item-video-Wrap">
@@ -212,7 +223,7 @@
         </div>
     </section>
 
-    <section class="section teachers">
+    <section class="section teachers" id="teachers">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">Преподаватели</span></h2>
         </div>
@@ -249,7 +260,7 @@
         <div class="hr"></div>
     </section>
 
-    <section class="section events-and-news">
+    <section class="section events-and-news" id="events">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">События и новости</span></h2>
             <div class="events-and-news-inner">
@@ -297,7 +308,7 @@
         </div>
     </section>
 
-    <section class="section contacts">
+    <section class="section contacts" id="contacts">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">Контакты</span></h2>
             <div class="contacts-inner">
@@ -393,7 +404,7 @@
                                         d="M769.818,48.329C740.94,14,687.624,0,585.8,0H216.189C112.038,0,57.818,14.906,29.049,51.452,1,87.085,1,139.587,1,212.252v138.5C1,491.525,34.28,563,216.189,563H585.8c88.3,0,137.228-12.356,168.883-42.65C787.149,489.284,801,438.563,801,350.751v-138.5C801,135.621,798.83,82.809,769.818,48.329ZM514.6,300.622L346.763,388.339A25.8,25.8,0,0,1,309,365.467V190.6a25.806,25.806,0,0,1,37.7-22.9l167.84,87.152A25.806,25.806,0,0,1,514.6,300.622Z" />
                                 </svg>
                             </a></li>
-                         <li class="footer__social-list-item"><a href="#" class="footer__social-item-link vkontakte">
+                        <li class="footer__social-list-item"><a href="#" class="footer__social-item-link vkontakte">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="13" viewBox="0 0 800 453">
                                     <defs>
                                         <style>
@@ -407,7 +418,7 @@
                                         d="M688.784,287.85c26.536,25.906,54.544,50.282,78.345,78.8,10.513,12.673,20.467,25.752,28.082,40.46,10.789,20.909,1.017,43.917-17.732,45.165l-116.544-.052c-30.059,2.494-54.038-9.607-74.2-30.158-16.137-16.434-31.079-33.926-46.6-50.916-6.36-6.944-13.018-13.478-20.971-18.643-15.91-10.326-29.721-7.164-38.812,9.429C471.1,378.813,469,397.5,468.089,416.309c-1.248,27.442-9.544,34.657-37.111,35.913-58.913,2.778-114.825-6.135-166.765-35.853-45.793-26.2-81.3-63.185-112.21-105.057C91.826,229.778,45.742,140.187,4.323,48.085-5,27.335,1.818,16.2,24.714,15.8c38.02-.739,76.035-0.686,114.1-0.053,15.452,0.226,25.682,9.089,31.648,23.687,20.57,50.577,45.74,98.7,77.334,143.3,8.413,11.874,16.992,23.749,29.209,32.107,13.516,9.255,23.805,6.187,30.164-8.868,4.035-9.546,5.8-19.828,6.711-30.052,3.011-35.175,3.409-70.289-1.874-105.341C308.762,48.706,296.44,34.544,274.611,30.4c-11.14-2.11-9.481-6.255-4.088-12.613C279.891,6.826,288.7,0,306.264,0H437.978c20.735,4.092,25.34,13.407,28.179,34.271l0.112,146.3c-0.225,8.077,4.035,32.045,18.584,37.391,11.643,3.806,19.319-5.509,26.305-12.892,31.536-33.469,54.043-73.023,74.15-113.98,8.924-18.009,16.6-36.713,24.032-55.4C614.848,21.823,623.494,15,639.115,15.3L765.88,15.415a66.868,66.868,0,0,1,11.2.678c21.361,3.64,27.214,12.828,20.616,33.687-10.395,32.725-30.62,60-50.4,87.394-21.141,29.251-43.75,57.5-64.715,86.924-19.261,26.87-17.731,40.413,6.2,63.751h0Z" />
                                 </svg>
                             </a></li>
-                            <li class="footer__social-list-item"><a href="#" class="footer__social-item-link telegram">
+                        <li class="footer__social-list-item"><a href="#" class="footer__social-item-link telegram">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 800 697">
                                     <defs>
                                         <style>
@@ -421,7 +432,7 @@
                                 </svg>
 
                             </a></li>
-                            <li class="footer__social-list-item"><a href="#" class="footer__social-item-link twitter">
+                        <li class="footer__social-list-item"><a href="#" class="footer__social-item-link twitter">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 800 655">
                                     <defs>
                                         <style>
