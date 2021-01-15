@@ -1,0 +1,6 @@
+@media(max-width: 1400px){
+    .header-bottom__title {
+        font-size: 100px;
+        line-height: 96px;
+    }
+}
