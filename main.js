@@ -87,11 +87,17 @@ window.onload = function () {
         })
     })
     //высоты заголовков в футере
-    const exampleHeigth = document.querySelector('.header__logo-img').height;
-    const footerTitle = document.querySelectorAll('.footer__item-title');
-    footerTitle.forEach(item =>{
-        value = exampleHeigth + 6;
-        item.style.height = value + "px";
+    // const exampleHeigth = document.querySelector('.header__logo-img').height;
+    // const footerTitle = document.querySelectorAll('.footer__item-title');
+    // footerTitle.forEach(item =>{
+    //     value = exampleHeigth + 6;
+    //     item.style.height = value + "px";
+    // })
+    //гамбургер меню
+    const hamburgerIcon = document.querySelector('.header__menu-gamberger');
+    const headerMenu = document.querySelector('.header__menu')
+    hamburgerIcon.addEventListener('click', ()=>{
+        headerMenu.classList.toggle('header__menu--active');
     })
 
 }
