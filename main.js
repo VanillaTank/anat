@@ -95,7 +95,6 @@ window.onload = function () {
     })
 
     //гамбургер меню
-    if (document.body.clientWidth < 640) {
         const hamburgerIcon = document.querySelector('.header__menu-gamberger');
         const headerMenu = document.querySelector('.header__menu')
         hamburgerIcon.addEventListener('click', () => {
@@ -110,7 +109,6 @@ window.onload = function () {
         function deleteClassActive() {
             headerMenu.classList.remove('header__menu--active');
         } 
-    }
 
 
 
