@@ -59,6 +59,12 @@
         padding: 20px 0 19px;
         font-size: 20px;
     }
+    .teachers__cards-container-item img {
+        max-height: 340px;
+    }
+    .teacherBack {
+        height: 295px;
+    }
 }
 @media(max-width:1040px) {
     .contacts-inner__text-item-input {
@@ -109,6 +115,20 @@
     }
     .contacts-inner__text-item {
         padding: 21px 16px 24px;
+    }
+    .teacherBack{
+        bottom: 140px;
+    }
+    .teachers__item-name{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .teachers__item-descr{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .teach-inner{
+        margin-top: 35px;
     }
 }
 @media(max-width: 880px) {
@@ -163,6 +183,26 @@
     }
 
 }
+@media(max-width:850px){
+    .teachers__item-name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .teachers__item-descr {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .teachers__cards-container-item img {
+        max-height: 280px;
+    }
+    .teacherBack {
+        bottom: 127px;
+        height: 248px;
+    }
+    .teach-inner {
+        margin-top: 15px;
+    }
+}
 @media(max-width: 800px){
     .header-bottom__title{
         font-size: 70px;
@@ -211,6 +251,31 @@
     }
     .footer__item--1, .footer__item-3 {
         max-width: 48%;
+    }
+    .teach-inner {
+        align-items: center;
+        flex-direction: column;
+    }
+    #teacherBack2, #teacherBack1 {
+        display: block;
+    }
+    .teacherBack {
+        border-top: 2px solid #1c1b1b;
+    }
+    #teacherBack1{
+        bottom: 907px;
+    }
+    #teacherBack2{
+        bottom: 503px;
+    }
+    #teacherBack3{
+        bottom: 98px;
+    }
+    .teachers__cards-container-item+.teachers__cards-container-item{
+        margin-top: 40px;
+    }
+    .teachers__item-descr{
+        margin-top: 5px;
     }
 }
 @media(max-width: 680px){
@@ -501,3 +566,14 @@
     }
 
 } 
+@media(max-width:323px){
+    #teacherBack1 {
+        bottom: 979px;
+    }
+    #teacherBack2 {
+        bottom: 552px;
+    }
+    #teacherBack3 {
+        bottom: 122px;
+    }
+}

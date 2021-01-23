@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header" id="major">
+    <header class="header isScroll" id="major" data-scrol="0">
         <div class="header-top">
             <div class="header-top__inner">
                 <a href="#major" class="header__logo-link">
@@ -56,7 +56,7 @@
         </div>
     </header>
 
-    <section class="section about" id="about">
+    <section class="section about isScroll" id="about" data-scrol="1">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">О нашей студии</span></h2>
             <div class="sliderContainer">
@@ -128,7 +128,7 @@
         </div>
     </section>
 
-    <section class="section strems" id="streams">
+    <section class="section strems isScroll" id="streams" data-scrol="2">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">Направления</span></h2>
             <article class="strems__item">
@@ -227,44 +227,48 @@
         </div>
     </section>
 
-    <!--<section class="section teachers" id="teachers">
+    <section class="section teachers isScroll" id="teachers" data-scrol="3">
+
         <div class="container">
             <h2 class="section-title"><span class="subtitle">Преподаватели</span></h2>
         </div>
-        <div class="photo-wrapper">
-            <div class="container teachers-container">
-                <a href="#"><img src="images/trener1.png" alt="Фото Тренер Тренерский"></a>
-                <a href="#"><img src="images/trener2.png" alt="Фото Тренер Тренерский"></a>
-                <a href="#"><img src="images/trener3.png" alt="Фото Тренер Тренерский"></a>
+
+        <div class="teachers__cards-container">
+            <div class="teacherBack" id="teacherBack1"></div>
+            <div class="teacherBack" id="teacherBack2"></div>
+            <div class="teacherBack" id="teacherBack3"></div>
+
+            <div class="container teach-inner">
+                <div class="teachers__cards-container-item">
+                    <a href="#" id="tren1"><img src="images/trener1.png" alt="Фото Тренер Тренерский"></a>
+                    <h3 class="teachers__item-name"><a href="#">Тренер Тренерский1</a></h3>
+                    <p class="teachers__item-descr">
+                        Заслуженно заслужил крутую танцевальную заслугу
+                        Европы и Северного Казахстана
+                    </p>
+                </div>
+                <div class="teachers__cards-container-item">
+                    <a href="#" id="tren2"><img src="images/trener2.png" alt="Фото Тренер Тренерский"></a>
+                    <h3 class="teachers__item-name"><a href="#">Тренер Тренерский2</a></h3>
+                    <p class="teachers__item-descr">
+                        Заслуженно заслужил крутую танцевальную заслугу
+                        Европы и Северного Казахстана
+                    </p>
+                </div>
+                <div class="teachers__cards-container-item">
+                    <a href="#" id="tren3"><img src="images/trener3.png" alt="Фото Тренер Тренерский"></a>
+                    <h3 class="teachers__item-name"><a href="#">Тренер Тренерский3</a></h3>
+                    <p class="teachers__item-descr">
+                        Заслуженно заслужил крутую танцевальную заслугу
+                        Европы и Северного Казахстана
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="container teachers-container">
-            <article class="teachers__item">
-                <h3 class="teachers__item-name"><a href="#">Тренер Тренерский</a></h3>
-                <p class="teachers__item-descr">
-                    Заслуженно заслужил крутую танцевальную заслугу
-                    Европы и Северного Казахстана
-                </p>
-            </article>
-            <article class="teachers__item">
-                <h3 class="teachers__item-name"><a href="#">Тренер Тренерский</a></h3>
-                <p class="teachers__item-descr">
-                    Заслуженно заслужил крутую танцевальную заслугу
-                    Европы и Северного Казахстана
-                </p>
-            </article>
-            <article class="teachers__item">
-                <h3 class="teachers__item-name"><a href="#">Тренер Тренерский</a></h3>
-                <p class="teachers__item-descr">
-                    Заслуженно заслужил крутую танцевальную заслугу
-                    Европы и Северного Казахстана
-                </p>
-            </article>
-        </div>
         <div class="hr"></div>
-    </section> -->
+    </section>
 
-    <section class="section events-and-news" id="events">
+    <section class="section events-and-news isScroll" id="events" data-scrol="4">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">События и новости</span></h2>
             <div class="events-and-news-inner">
@@ -318,7 +322,7 @@
         </div>
     </section>
 
-    <section class="section contacts" id="contacts">
+    <section class="section contacts isScroll" id="contacts" data-scrol="5">
         <div class="container">
             <h2 class="section-title"><span class="subtitle">Контакты</span></h2>
             <div class="contacts-inner">
