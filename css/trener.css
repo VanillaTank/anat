@@ -1,0 +1,32 @@
+.header {
+    max-height: 62px;
+}
+.about-trainer {
+    background-color: #fff;
+}
+.about-trainer-inner {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-trainer-slider {
+    max-width: 620px;
+    width: 100%;
+}
+.about-trainer-text {
+    font-family: 'RobotoCondensed Regular', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -1px;
+    max-width: 470px;
+    width: 100%;
+}
+.img-wrap {
+    position: relative;
+
+}
+.imgSlide {
+    max-width: 500px;
+    margin: 0 auto;
+}

@@ -161,9 +161,10 @@ body {
 }
 .header__menu-gamberger {
     display: none;
-    background-color: #fff;
     width: 30px;
     height: 30px;
+    background-image: url('../images/bars.svg');
+    background-size: cover;
 }
 /* about */
 .about {

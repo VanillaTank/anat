@@ -24,7 +24,7 @@ window.onload = function () {
         })
     })
 
-    //слайдер
+    //слайдер  !!! РАБОТАЕТ ТОЛЬКО ДЛЯ 3 ЭЛЕМЕНТОВ !!!
     const arrows = document.querySelectorAll('.arrow');
     const sliderContainerInner = document.querySelectorAll('.sliderContainerInner');
     const paginItems = [...document.querySelectorAll(".pagin__item")];
