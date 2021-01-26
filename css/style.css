@@ -581,3 +581,30 @@ body {
 .cls-1:hover{
     fill: #ff911b;
 }
+
+/* Общая страница новостей */
+.all-news__header {
+    height: 62px;
+}
+.all-news{
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+.all-news__list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.all-news__list-item {
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.all-news-btn {
+    display: block;
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 28px 0;
+}

@@ -2,6 +2,10 @@
     .contacts-inner__map img{
         height: auto;
     }
+    .all-news__list {
+        max-width: 760px;
+        margin: 80px auto 0;
+    }
 }
 @media(max-width:1139px){
     .contacts-inner__text-item{
@@ -152,6 +156,19 @@
     .about-trainer-slider .arrow img {
         width: 15px;
     }
+    .all-news__list .events-and-news__item {
+        flex-basis: 100%;
+        max-width: 350px;
+        margin: 0;
+        display: block;
+    }
+    .all-news__list .events-and-news__item+.events-and-news__item {
+        margin: 0;
+    }
+    .all-news__list .events-and-news__item-img {
+        max-width: 350px;
+        margin-right: 0px;
+    }
 }
 @media(max-width: 928px) {
     .imgSlide {
@@ -275,6 +292,13 @@
     .strems__item-title {
         font-size: 36px;
     }
+    .all-news__list{
+        max-width: 350px;
+    }
+    .all-news-btn {
+        max-width: 350px;
+        padding: 20px 0;
+    }
 }
 @media(max-width: 780px) {
     .header-top{
@@ -326,6 +350,10 @@
     .header-trainer {
         max-height: 130px;
     }
+    .all-news__header {
+        height: 130px;
+    }
+
 
 }
 @media(max-width: 680px){
@@ -408,7 +436,10 @@
         line-height: 15px;
     }
     .header-trainer {
-        max-height: 62px;
+        height: 62px;
+    }
+    .all-news__header {
+        height: 62px;
     }
     .imgSlide {
         max-width: 450px;
@@ -421,6 +452,15 @@
     }
     .events-and-news__item-btn{
         margin-bottom: 0;
+    }
+    .all-news__list {
+        margin-top: 60px;
+    }
+    .all-news__list-item {
+        margin-bottom: 60px;
+    }
+    .all-news__list .events-and-news__item-btn{
+        margin-bottom: 30px;
     }
 }
 @media(max-width: 570px) {
@@ -473,6 +513,9 @@
     }
     .imgSlide {
         max-width: 400px;
+    }
+    .all-news__list .events-and-news__item div {
+        margin-left: auto;
     }
 }
 @media(max-width: 531px) {
@@ -531,6 +574,9 @@
     } 
     .about-trainer-inner {
         margin-top: 45px;
+    }
+    .all-news-btn {
+        padding: 18px 0;
     }
 }
 @media(max-width:451px){
