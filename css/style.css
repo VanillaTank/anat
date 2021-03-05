@@ -295,6 +295,7 @@ body {
 }
 .teachers__cards-container {
     position: relative;
+    z-index: 0;
 }
 .teach-inner {
     display: flex;
