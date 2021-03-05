@@ -8,19 +8,21 @@ let endX = 0;
 const slideWidth = sliderContainerInner[0].clientWidth;
 
 const swipeAction = (e) => {
-    startX = e.clientX;
+    e.preventDefault();
+    startX = e.clientX || e.changedTouches[0].clientX;
     return startX;
 }
 
 const swipeEnd = (e) => {
     e.preventDefault();
-    endX = e.clientX;
+    endX = e.clientX || e.changedTouches[0].clientX;
     let distanceMove = startX - endX;
     if (Math.abs(distanceMove) > slideWidth * 0.25 && startX < endX) {
         prevSlide();
     } else if (Math.abs(distanceMove) > slideWidth * 0.25 && startX > endX) {
         nextSlide();
     }
+    console.log(startX, endX, slideWidth * 0.25);
 }
 
 sliderContainerInner.forEach(item => {
