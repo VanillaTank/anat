@@ -53,10 +53,10 @@
             </p>
             <ul class="one-new__btn-list">
                 <li class="one-new__btn-list-item">
-                    <button class="btn btnOnLight" type="button">Только фото</button>
+                    <button class="btn btnOnLight" type="button" id="filterJustPhoto">Только фото</button>
                 </li>
                 <li class="one-new__btn-list-item">
-                    <button class="btn btnOnLight" type="button">Только видео</button>
+                    <button class="btn btnOnLight" type="button" id="filterJustVideo">Только видео</button>
                 </li>
             </ul>
             <ul class="one-new__material-list">
@@ -189,14 +189,29 @@
                 </div>
             </div>
             <p class="footer__me">
-                <a href="#">
+                <a href="#my-card">
                     © ТатьянышDeveloper, 2020
                 </a>
             </p>
         </div>
     </footer>
 
+    <div class="my-card" id="my-card">
+        <figure>
+          <a href="#0" class="close" id="my-card-close"></a>
+          <figcaption>
+            <h4>Дизайн и верстка</h4>
+            <ul class="my-contacts-list">
+                <li><span> E-mail:</span> tedien2016@yandex.ru</li>
+                <li><span>ВКонтакте:</span> https://vk.com/id124628191</li>
+                <li><span>Telegram:</span> @VanillaTank</li>
+                <li><span>GitHub:</span> https://github.com/VanillaTank</li>
+            </ul>
+          </figcaption>
+        </figure>
+    </div> 
     <script src="main.js"></script>
+    <script src="one-news.js"></script>
 </body>
 
 </html>

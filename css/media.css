@@ -520,7 +520,8 @@
 @media(max-width: 570px) {
     .sliderText-text {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 19px;
+        max-width: 380px;
     }
     .subtitle {
         font-size: 34px;
@@ -530,9 +531,6 @@
     }
     .sliderImg {
         max-width: 380px;
-    }
-    .sliderText-text {
-        max-width: 380px; 
     }
     .strems__item-title {
         font-size: 30px;

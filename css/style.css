@@ -200,6 +200,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    user-select: none;
 }
 .sliderText-title{
     font-weight: normal;
@@ -214,10 +215,12 @@ body {
     line-height: 25px;
     max-width: 420px;
     text-align: justify;
+    user-select: none;
 }
 .sliderImg{
     max-width: 510px;
     object-fit: cover;
+    user-select: none;
 }
 .paginator{
     display: flex;
@@ -648,7 +651,6 @@ body {
     width: 100%;
     margin: 40px auto 0;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .one-new__material-item {
@@ -665,4 +667,76 @@ body {
     max-width: 370px;
     height: 264px;
     margin-left: 20px;
+}
+
+
+
+/* моя визитка */
+.my-card {
+    display: none;
+}
+
+.my-card:target {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.my-card figcaption {
+    max-width: 400px;
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.my-card figcaption h4 {
+    font-size: 16px;
+    padding: 0 5px;
+}  
+.my-card .close {
+    position: relative;
+    display: block;
+}
+.my-card .close::after {
+    right: -1rem;
+    top: -1rem;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 9, 9);
+    border-radius: 50%;
+    color: white;
+    content: "×";
+    cursor: pointer;
+}
+.my-card .close::before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    content: "";
+    cursor: default;
+}
+
+.my-contacts-list {
+    padding: 5px;
+    font-size: 16px;
+}
+.my-contacts-list li+li {
+    margin-top: 5px;
+}
+.my-contacts-list span {
+    color: #5e5b5b;
+    font-size: 15px;
 }
