@@ -8,9 +8,9 @@ let endX = 0;
 const slideWidth = sliderContainerInner[0].clientWidth;
 
 const swipeAction = (e) => {
-    // e.preventDefault();
+    //e.preventDefault();
     startX = e.clientX || e.changedTouches[0].clientX;
-    return startX;
+   
 }
 
 const swipeEnd = (e) => {
