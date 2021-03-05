@@ -366,15 +366,15 @@
         max-width: 48%;
     }
     .teach-inner {
-        align-items: center;
+        align-items: stretch;
         flex-direction: column;
+        padding: 0;
     }
-    #teacherBack2, #teacherBack1 {
-        display: block;
-    }
-    #teacherBack1 {
+
+    #teacherBack3 {
         display: none;
-    }
+    } 
+
     .teacherBack {
         border-top: 2px solid #1c1b1b;
     }
@@ -405,25 +405,24 @@
     .teachers__cards-container-item {
         max-width: 100%;
     }
-    #tren1 {position: relative;}
-    #tren1:before {
+    #tren1,#tren2,#tren3 {position: relative;}
+    #tren1:before,#tren2:before,#tren3:before {
         content: "";
-        background-color: greenyellow;
+        background-color: #ff911b;
         width: 100%;
         position: absolute;
         top: 44px;
-        bottom: -2px;
+        bottom: -1.5px;
         z-index: -1;
         border-top: 2px solid #1c1b1b;
         border-bottom: 2px solid #1c1b1b;
     }
     .teachers__item-descr {
         padding: 0 20px;
+        max-width: 500px;
+        margin: 5px auto 0;
     }
-    .teach-inner {
-        padding: 0;
-        align-items: stretch;
-    }
+
 }
 @media(max-width: 680px){
     .sliderImg {
