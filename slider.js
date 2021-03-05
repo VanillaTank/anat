@@ -25,7 +25,7 @@ const swipeEnd = (e) => {
 
 sliderContainerInner.forEach(item => {
     item.style.display = 'none';
-    item.addEventListener('touchmove', swipeAction);
+    item.addEventListener('touchstart', swipeAction);
     item.addEventListener('touchend', swipeEnd);
     item.addEventListener('mousedown', swipeAction);
     item.addEventListener('mouseup', swipeEnd);
