@@ -102,6 +102,12 @@
         max-width: 520px;
     }
 }
+@media (orientation: landscape) {
+    .header {
+        height: auto;
+        overflow: visible;
+    }
+}
 @media(max-width:1040px) {
     .contacts-inner__text-item-input {
         max-width: 380px;
@@ -366,6 +372,9 @@
     #teacherBack2, #teacherBack1 {
         display: block;
     }
+    #teacherBack1 {
+        display: none;
+    }
     .teacherBack {
         border-top: 2px solid #1c1b1b;
     }
@@ -393,7 +402,28 @@
     .one-new-description {
         margin: 45px auto 35px;
     }
-
+    .teachers__cards-container-item {
+        max-width: 100%;
+    }
+    #tren1 {position: relative;}
+    #tren1:before {
+        content: "";
+        background-color: greenyellow;
+        width: 100%;
+        position: absolute;
+        top: 44px;
+        bottom: -2px;
+        z-index: -1;
+        border-top: 2px solid #1c1b1b;
+        border-bottom: 2px solid #1c1b1b;
+    }
+    .teachers__item-descr {
+        padding: 0 20px;
+    }
+    .teach-inner {
+        padding: 0;
+        align-items: stretch;
+    }
 }
 @media(max-width: 680px){
     .sliderImg {
@@ -678,7 +708,7 @@
         font-size: 14px;
     }
     .strems__item-video{
-        width: 400px;
+        max-width: 100%;
         height: 225px;
     }
     .events-and-news-link {
