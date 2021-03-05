@@ -8,13 +8,10 @@ let endX = 0;
 const slideWidth = sliderContainerInner[0].clientWidth;
 
 const swipeAction = (e) => {
-    //e.preventDefault();
     startX = e.clientX || e.changedTouches[0].clientX;
-   
 }
 
 const swipeEnd = (e) => {
-    e.preventDefault();
     endX = e.clientX || e.changedTouches[0].clientX;
     let distanceMove = startX - endX;
     if (Math.abs(distanceMove) > slideWidth * 0.25 && startX < endX) {
