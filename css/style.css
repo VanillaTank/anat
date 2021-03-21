@@ -353,11 +353,6 @@ body {
     line-height: 25px;
     letter-spacing: -1px;
 }
-.hr {
-    height: 2px;
-    background-color: #5e5b5b;
-    width: 100%;
-}
 /* events-and-news */
 .events-and-news {
     color: #fff;
@@ -468,12 +463,12 @@ body {
     display: block;
     max-width: 100%;
     width: 100%;
-    padding: 16px 14px 14px;
+    padding: 12px 12px 11px;;
 }
 .contacts-inner__text-item-input::placeholder{
     font-family: 'RobotoCondensed Regular', sans-serif;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 18px;
     letter-spacing: -1px;
     color: #5e5b5b;
 }

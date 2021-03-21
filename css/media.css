@@ -111,7 +111,7 @@
 @media(max-width:1040px) {
     .contacts-inner__text-item-input {
         max-width: 380px;
-        padding: 14px 12px 8px;
+        padding: 12px 12px 10px;
     }
     .contacts-inner__text-item-title {
         font-size: 25px;

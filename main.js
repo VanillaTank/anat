@@ -1,4 +1,11 @@
 window.onload = function () {
+
+
+    const testBTN = document.getElementById('testBTN');
+    testBTN.addEventListener('click', () => {
+        console.log('Мозила');
+       location = "http://www.mozilla.org"
+    })
     //окрашивание элеманта списка навигации по клику
     const menuItem = [...document.querySelectorAll('.header__menu-item')];
     const menuLink = [...document.querySelectorAll('.header__menu-link')];
