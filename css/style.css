@@ -147,8 +147,8 @@ body {
 .header-bottom__title {
     margin-top: 60px;
     color: #fff;
-    font-size: 118px;
-    line-height: 111px;
+    font-size: 92px;
+    line-height: 94px;;
     letter-spacing: -4px;
     max-width: 400px;
     font-weight: normal;
@@ -250,7 +250,7 @@ body {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .srtems__item-video-Wrap{
     display: flex;
@@ -287,6 +287,9 @@ body {
     padding: 24px 82px 23px;
     font-size: 16px;
     line-height: 19px;
+}
+.strems__item-btn:hover {
+    border: 1px solid #ff911b;
 }
 /* teachers */
 .teachers{
@@ -329,6 +332,7 @@ body {
     justify-content: center;
 }
 #tren3 {
+    margin-top: 3px;
     display: flex;
     justify-content: center;
 }
